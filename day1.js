@@ -32,3 +32,12 @@ alert(`My name is ${myName} and I am ${myAge} years old. I am trying to gain a d
 
 
 
+// day 2 
+function canYouVote(age){
+    if(age >= 18){
+        return alert("you can vote");
+    }
+    else {
+        return alert("you cannot vote"); 
+    }
+}
